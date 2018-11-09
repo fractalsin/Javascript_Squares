@@ -1,0 +1,146 @@
+body {
+    background: linear-gradient(to right, dodgerblue, lightskyblue, limegreen);
+    background-position: 20% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.magicDiv, .magicDiv_2, .magicDiv_3, .magicDiv_4, #magicDiv_4, .magicDiv_5, .magicDiv_6, .magicDiv_7, .magicDiv_8, #magicDiv_9 {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 7px solid white;
+}
+.magicDiv {
+    border: 7px solid white;
+    color: red;
+}
+button {
+    height: 50px;
+}
+.magicDiv_5 {
+    justify-content: center;
+}
+#magicDiv_4 {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 7px solid white;
+    text-align: center;
+}
+.magicDiv_6 {
+    justify-content: space-between;
+}
+.magicDiv_7 {
+    position: 0;
+    width: 400px;
+    height: 400px;
+}
+
+.magicDiv_7a {
+    width: 0;
+    height: 0;
+    position: 0;
+    border-bottom: 400px solid red;
+    border-right: 400px solid transparent;
+}
+.magicDiv_7b {
+    width: 400px;
+    height: 200px;
+    border-top: 400px solid orange;
+
+}
+/*
+.magicDiv_8 {
+  background-color: lime;
+} */
+.magicDiv_8a {
+  width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 200px solid blue;
+  z-index: 100;
+}
+.magicDiv_8b {
+  position: absolute;
+  position: 400px 400px;
+  width: 200px;
+	height: 0;
+	border-bottom: 200px solid transparent;
+	border-top: 200px solid transparent;
+	border-right: 200px solid orange;
+  z-index: 100;
+}
+.magicDiv_8c {
+  position: absolute;
+  position: 400px 400px;
+  width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-bottom: 200px solid yellow;
+  border-left: 200px solid transparent;
+  border-right: 200px solid yellow;
+  z-index: 50;
+}
+.magicDiv_8d {
+  position: absolute;
+  position: 200px 200px;
+  width: 0;
+	height: 0;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 200px solid limegreen;
+  border-right: 200px solid transparent;
+  z-index: 200;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    z-index: 999;
+    border: 2px solid black;
+    position: relative;
+}
+/* .triangle_bottom_left, .triangle_top_right {
+    height: 0;
+    width: 0;
+}
+.triangle_bottom_left {
+    border-bottom: 400px solid #cf9200;
+    border-right: 400px solid transparent;
+}
+.triangle_top_right {
+    border-top: 400px solid #0d6aad;
+    border-left: 400px solid transparent;
+    margin-left: -400px;
+
+} */
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    background-color: teal;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+}
+h1 {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #myDIV {
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body onload="addElement()">
+    <div class="flexbox">
+        <div class="magicDiv">Green background on DOM Content Loaded after 2 seconds.</div>
+        <div class="magicDiv_2">Grey background on scroll after 4 seconds.</div>
+        <div class="magicDiv_3">Border color changing on DOM Content Loaded</div>
+        <div id="magicDiv_4">
+            <button onclick="createContent()">Magic Button</button>
+        </div>
+        <div class="magicDiv_5">
+            <button class="yellow" onclick="yellowFunction()">Paint in yellow</button>
+            <button class="orange" onclick="orangeFunction()">Paint in orange</button>
+            <button class="teal" onclick="tealFunction()">Paint in teal</button>
+        </div>
+        <div class="magicDiv_6">
+            <div class="dot"></div>
+            <div class="triangle_bottom_left"></div>
+            <div class="triangle_top_right"></div>
+        </div>
+        <div class="magicDiv_7">
+            <div class="magicDiv_7a"></div>
+            <div class="magicDiv_7b"></div>
+        </div>
+        <div class="magicDiv_8">
+            <div class="magicDiv_8a"></div>
+            <div class="magicDiv_8b"></div>
+            <div class="magicDiv_8c"></div>
+            <div class="magicDiv_8d"></div>
+        </div>
+        <div id="magicDiv_9"></div>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+<script src="javascript.js"></script> <!-- magicDiv, magicDiv_2, magicDiv_3 effects -->
+<script src="javascript_2.js"></script><!-- magicDiv_4 effect -->
+<script src="javascript_3.js"></script>
+</html>
